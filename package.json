@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "vite build && echo '/* /index.html 200' | cat >dist/_redirects "
   },
   "dependencies": {
     "react": "^17.0.2",
